@@ -1,0 +1,24 @@
+# Prime Number checkNumber
+
+# Light weight web app that checks if a given a number is a prime
+and return true else it return false;
+
+## Features
+    It evalute and return any positve interger;
+    rutun bolean (true/false) if a number is prime or not
+
+## Stacks
+HTML for structure
+CSS for styling.
+JavaScrupt for interactive using Loop and conditional
+
+## How the app works.
+Any number less than or equal to 1 return false.
+It check is a number is divisble of 2 to the square root
+of the number.
+If the divisble is found it returns true otherwise it returs false;
+
+## Installation and setup
+git clone https://github.com/oteikwu1/Prime-Number-Checker;
+
+cd Prime-Number-Checker
