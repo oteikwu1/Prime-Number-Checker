@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --body-color: #dedee2;
+    --btn-color: #2f27ce;
+    --text-color: #050316;
+    --secondary-color: #dddbff;
+    --success-color: #008000;
+    --error-color: #ff0000;
+    --neutral-color: #ffffff;
+    --main-font: 'Lato', sans-serif;
+    --container-radius: 8px;
+    --input-radius: 6px;
+}
+
+body{
+  background-color: var(--body-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-container{
+    background-color: var(--neutral-color);
+    max-width: 400px;
+    width: 100%;
+    border-radius: var(--container-radius);
+    font-family: var(--main-font);
+    height: fit-content;
+    padding: 10px 20px;
+}
+
+.title {
+    font-family: inherit;
+    color: var(--text-color);
+    margin: 10px 0;
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 18px 0;
+}
+
+.input-number {
+    padding: 10px 8px;
+    border-radius: var(--input-radius);
+    border: 2px solid var(--text-color);
+    max-width: 260px;
+    width: 100%;
+    &:focus {
+     border: 2px solid var(--btn-color);
+    }
+}
+
+.check-number {
+    background-color: var(--success-color);
+    color: var(--neutral-color);
+    border-radius: var(--container-radius);
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1em;
+    border: none;
+}
+
+.display-result {
+    font-family: inherit;
+    font-size: 1.2em;
+    margin: 14px 0;
+}
